@@ -1,0 +1,126 @@
+/*COLORES GRADIENTE BG*/
+/*COLORES FOOTER*/
+/*COLORES HEADER*/
+/*----- NO TIENE------*/
+/*COLORES SECCION*/
+/*COLORES MENU*/
+body {
+  background-image: linear-gradient(to right, #afff96, #bbbaba);
+  min-height: 100%; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%; }
+
+/*SEctor del header*/
+.foto1 {
+  margin: 0;
+  grid-area: foto1;
+  height: 65%;
+  width: 5%; }
+
+header .titulo {
+  padding-left: 10px; }
+
+/*------------------ ESTILO AL MENU---------------*/
+.menu {
+  display: flex;
+  justify-content: space-around;
+  grid-area: menu;
+  margin: 0;
+  background-color: #58c04b; }
+  .menu li {
+    list-style: none; }
+    .menu li a {
+      text-decoration: none;
+      color: black;
+      font-size: 25p; }
+      .menu li a:hover {
+        color: whitesmoke; }
+
+/*-------------- ESTLO AL MAIN Y SECCION---------------*/
+.qSomos {
+  grid-area: qSomos;
+  margin-top: 10px;
+  margin-bottom: 200px;
+  text-decoration: none; }
+  .qSomos h3 {
+    background-color: #f8f47d;
+    grid-area: qS3;
+    color: black;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 15px; }
+  .qSomos img {
+    margin-top: 15px; }
+  .qSomos p1 {
+    background-color: #83df71;
+    grid-area: p1;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 10px; }
+
+.unPoco h3 {
+  background-color: #f8f47d;
+  width: 40%;
+  grid-area: uPh3;
+  color: black;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  margin: 25px; }
+
+.unPoco p2 {
+  background-color: #83df71;
+  color: black;
+  grid-area: p2;
+  text-align: center;
+  width: 80%;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 30px;
+  letter-spacing: 2px; }
+
+.unPoco p3 {
+  background-color: #83df71;
+  color: black;
+  grid-area: p3;
+  text-align: center;
+  width: 80%;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 30px;
+  letter-spacing: 2px; }
+
+/*--------------ESTILO DEL FOOTER--------------*/
+.footer {
+  text-align: center; }
+  .footer .pie {
+    background-color: #8dce78;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid black; }
+    .footer .pie h3 {
+      font-size: 20px;
+      padding-left: 15px; }
+    .footer .pie ul li {
+      list-style: none;
+      text-decoration: none; }
+  .footer copyStyle {
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+    text-align: center; }

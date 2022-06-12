@@ -1,0 +1,47 @@
+/*-------------- ESTLO AL MAIN Y SECCION---------------*/
+.qSomos{
+    grid-area: qSomos;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    text-decoration: none;
+    
+     h3{
+        background-color: $bgh3;
+        grid-area: qS3;color: black;
+        font-size: 30px; align-items: center;
+        text-align: center; border-radius: 10px;margin-bottom: 15px;
+    }
+    img{
+        margin-top: 15px;
+    }
+    p1{
+        background-color: $bgp1;
+        grid-area: p1;color: black;display: inline-block;
+        text-align: center;font-size: 20px;width: 300px;
+        margin-right: 20px;border-radius: 10px;
+    }
+    
+}
+
+
+.unPoco{
+    h3{
+        background-color: $bgh3;
+        width: 40%;grid-area: uPh3;color: black;
+        font-size: 30px;align-items: center;text-align: center;
+        border-radius: 10px;margin: 25px;
+    }
+    p2{
+        background-color: $bgp1;
+        color: black;grid-area: p2;
+        text-align: center; width: 80%; display: inline-block;
+        border-radius: 10px; font-size:16px;
+        margin:30px; letter-spacing: 2px;
+    }
+    p3{
+        background-color: $bgp1;
+        color: black; grid-area: p3; text-align: center;
+        width: 80%; display: inline-block;
+        border-radius: 10px;font-size:16px; margin:30px; letter-spacing: 2px;
+    }
+}
