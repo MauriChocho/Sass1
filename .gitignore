@@ -4,5 +4,7 @@ html/productos.hmtl
 html/servicios.html
 package.json
 package-lock.json
-./css/style.css;
+./css/style.css
+./node_modules
+
 
