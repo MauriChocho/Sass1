@@ -1,0 +1,48 @@
+/*--------USO DE GRID A SERVICIOS--------*/
+
+.grid-servicios >*{
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+  }
+  .header-serv{grid-area: header-serv; display: flex;}
+  .nav-serv{grid-area: nav-serv;}
+  .main-serv{grid-area: main-serv;}
+  .footer-serv{grid-area: footer-serv;}
+  .servicios{grid-area: servicios; display:flex; flex-wrap: wrap; margin-top: 60px; justify-content: space-around;}
+
+  .serv-1{grid-area: serv-1; margin: 20px 10px;}
+  .serv-2{grid-area: serv-2; margin: 20px 10px;}
+  .serv-3{grid-area: serv-3; margin: 20px 10px;}
+
+  
+
+
+  .grid-servicios{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+
+    "header-serv"
+    "nav-serv"
+    "main-serv"
+     "footer"
+        
+    ;
+}
+
+@media screen and (min-width:768px){
+    .grid-servicios{
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 65px 60px auto 120px;
+        grid-template-areas: 
+
+        "header-serv header-serv header-serv"
+        "nav-serv nav-serv nav-serv"
+        "main-serv main-serv main-serv"
+        "footer footer footer"
+        
+        ;
+    }
+}

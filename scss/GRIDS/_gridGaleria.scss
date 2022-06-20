@@ -1,0 +1,21 @@
+/*-------USO DE GRID PARA GALERIA-------*/
+
+.grid-galeria >*{
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+}
+
+    .header-galeria{grid-template-areas: header-galeria;display:flex; flex-wrap: wrap;}
+    .main-galeria{grid-template-areas: main-galeria;}
+
+    .grid-galeria{
+        display: grid;
+        gap: 5px;
+        grid-template-areas: 
+        "header-galeria"
+        "navBar"
+        "main-galeria"
+        "footer";
+    }

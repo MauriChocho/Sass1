@@ -1,0 +1,66 @@
+
+/*-----------------MIXIN MENU------------------*/
+@mixin mixinMenu {
+    display: flex;
+    justify-content:space-around;
+    grid-area: menu;
+    margin:0;
+    background-color: $bgmenu;
+    li{
+    list-style: none;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+            &:hover{
+                color: $hovermenu;
+            }
+        }
+    }
+}
+.menu{
+    @include mixinMenu;}
+
+/*--------MIXIN A PARRAFOS DEL MAIN DEL INDEX --------------*/
+
+@mixin parrafo{
+    background-color: $bgp1;
+    color: black;
+    text-align: center; width: 80%; display: inline-block;
+    border-radius: 10px; font-size:16px;
+    margin:30px; letter-spacing: 2px;  
+}
+.unPoco .p2 , .p3 {@include parrafo;} 
+
+/*------MIXIN A H3 DE LA SECCION SERVICIOS---------*/
+
+@mixin mixinH3 {
+background-color:greenyellow; color: black; margin: 20px; border: solid 1px black; border-radius: 3px; text-decoration: none; list-style: none;
+&:hover{
+    zoom: 1.25;
+background-color: rgb(64, 152, 64);
+}  
+}
+.servicios li h3{
+    @include mixinH3;}
+
+
+
+/*-----------------MIXIN FOOTER------------------*/
+@mixin mixinPie {
+    text-align: center;
+    .pie{
+        background-color: $bgpie;
+        color: black;border-radius: 10px;text-align: center;border: 1px solid black;
+}
+h3{
+font-size: 20px;padding-left: 15px;
+}
+ul li{
+list-style: none;text-decoration: none;
+}
+
+copyStyle{
+font-family:'Lato', sans-serif;font-size: small;text-align: center; 
+}
+}

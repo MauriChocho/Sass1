@@ -1,11 +1,32 @@
+/*--------------IMPORT DE VARIABLES y mixin------*/
 @import "variables";
-@import "body";
-@import "header";
-@import "menu";
-@import "mainSeccion";
-@import "footer";
+@import "mixin";
 
 
+/*---------------IMPORT DE PARTIALS--------------*/
+@import "./GRIDS/gridIndex";
+@import "./GRIDS/gridServicios";
+@import "./GRIDS/gridProductos";
+@import "./GRIDS/gridGaleria";
+@import "./GRIDS/gridContacto";
+@import "./index/body";
+@import "./index/header";
+@import "./index/mainSeccion";
+@import "./index/footer";
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
