@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 .product{ display: flex; flex-wrap: wrap; justify-content: space-between;}
-.card{ background-color: rgb(162, 162, 3); border:black 2px  solid; border-radius: 12px; margin: 80px auto; padding: 20px 30px; box-shadow: rgb(201, 186, 186);}
+.card{ background-color: $cardProd; border:black 2px  solid; border-radius: 12px; margin: 80px auto; padding: 20px 30px; box-shadow: rgb(201, 186, 186);}
 .card h5 { font-size:20px; padding: 15px;}
 .card ul li{padding-bottom: 15px;}
 

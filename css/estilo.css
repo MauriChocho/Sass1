@@ -1,15 +1,18 @@
 /*--------------IMPORT DE VARIABLES y mixin------*/
 /*COLORES GRADIENTE BG*/
-/*COLORES FOOTER*/
-/*COLORES SECCION*/
 /*COLORES MENU*/
+/*COLORES SECCION*/
+/*COLORES FOOTER*/
+/*COLOR CARDS PRODUCTOS*/
 /*-----------------MIXIN MENU------------------*/
 .menu {
   display: flex;
   justify-content: space-around;
   grid-area: menu;
   margin: 0;
-  background-color: #58c04b; }
+  background-color: #88f49c;
+  border: 2px black solid;
+  border-radius: 3px; }
   .menu li {
     list-style: none; }
     .menu li a {
@@ -21,7 +24,7 @@
 
 /*--------MIXIN A PARRAFOS DEL MAIN DEL INDEX --------------*/
 .unPoco .p2, .p3 {
-  background-color: #83df71;
+  background-color: #71fb8d;
   color: black;
   text-align: center;
   width: 80%;
@@ -33,7 +36,7 @@
 
 /*------MIXIN A H3 DE LA SECCION SERVICIOS---------*/
 .servicios li h3 {
-  background-color: greenyellow;
+  background-color: #0266e0;
   color: black;
   margin: 20px;
   border: solid 1px black;
@@ -42,7 +45,7 @@
   list-style: none; }
   .servicios li h3:hover {
     zoom: 1.25;
-    background-color: #409840; }
+    background-color: #f5f5f5; }
 
 /*-----------------MIXIN FOOTER------------------*/
 /*---------------IMPORT DE PARTIALS--------------*/
@@ -50,7 +53,7 @@
 .grilla > * {
   box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
   border-radius: 3px;
-  padding: 10px;
+  padding: 5px;
   text-align: center; }
 
 @media (min-width: 321px) {
@@ -140,7 +143,7 @@
   justify-content: space-between; }
 
 .card {
-  background-color: #a2a203;
+  background-color: #71fb8d;
   border: black 2px  solid;
   border-radius: 12px;
   margin: 80px auto;
@@ -237,7 +240,7 @@
   grid-template-areas: "header-contacto" "navBar" "main-contacto" "footer"; }
 
 body {
-  background-image: linear-gradient(to right, #afff96, #bbbaba);
+  background-image: linear-gradient(to right, #361ce2, #9d92e4);
   min-height: 100%; }
 
 * {
@@ -265,7 +268,7 @@ header .titulo {
   margin-bottom: 200px;
   text-decoration: none; }
   .qSomos h3 {
-    background-color: #f8f47d;
+    background-color: #71fb8d;
     grid-area: qS3;
     color: black;
     font-size: 30px;
@@ -277,7 +280,7 @@ header .titulo {
     margin-top: 15px; }
   .qSomos .p1 {
     grid-area: p1;
-    background-color: #83df71;
+    background-color: #71fb8d;
     color: black;
     display: inline-block;
     text-align: center;
@@ -287,7 +290,7 @@ header .titulo {
     border-radius: 10px; }
 
 .unPoco h3 {
-  background-color: #f8f47d;
+  background-color: #71fb8d;
   width: 40%;
   grid-area: uPh3;
   color: black;
@@ -307,7 +310,7 @@ header .titulo {
 .footer {
   text-align: center; }
   .footer .pie {
-    background-color: #8dce78;
+    background-color: #88f49c;
     color: black;
     border-radius: 10px;
     text-align: center;
