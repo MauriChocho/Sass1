@@ -1,0 +1,40 @@
+/*-------USO DE GRID PRODUCTOS--------*/
+
+.main-product{ padding: 30px auto}
+.list-group- li{
+    list-style: none;
+    text-decoration: none;
+}
+.product{ display: flex; flex-wrap: wrap; justify-content: space-between;}
+.card{ background-color: rgb(162, 162, 3); border:black 2px  solid; border-radius: 12px; margin: 80px auto; padding: 20px 30px; box-shadow: rgb(201, 186, 186);}
+.card h5 { font-size:20px; padding: 15px;}
+.card ul li{padding-bottom: 15px;}
+
+
+.card a{ text-decoration: none; color: black; border:2px solid rgb(66, 61, 61) ;}
+.card a:hover{ color: green; font-size: 20px;}
+
+
+.header-product{grid-template-areas: header-product; display: flex;}
+.nav-product{grid-template-areas: nav-product;}
+.main-product{grid-template-areas: main-product;}
+.product{grid-template-areas: product; display: flex;}
+
+.grid-product >*{
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+  }
+
+.grid-product{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    
+    "header-product"
+    "navBar"
+    "product"
+    "footer"
+    ;
+}

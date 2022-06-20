@@ -1,0 +1,30 @@
+/*------USO DE GRID A CONTACTO-----*/
+
+.grid-contacto >*{
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+}
+
+.formulario{
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.header-contacto{grid-template-areas: header-contacto; display: flex; flex-wrap: wrap;}
+.main-contacto{grid-template-areas: main-contacto;}
+
+.grid-contacto{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    "header-contacto"
+    "navBar"
+    "main-contacto"
+    "footer";
+}
