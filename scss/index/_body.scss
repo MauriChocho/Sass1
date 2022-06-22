@@ -1,5 +1,10 @@
 body{
-    background-image: linear-gradient(to right, $bglg, $bglg1);min-height: 100%;
+    background-image: linear-gradient(to right, $bglg, $bglg1);
+    background-attachment:fixed;
+    background-origin:inital;
+    background-repeat:no-repeat;
+    min-height: 100%;
+    width: 100%;
  }
 
  *{

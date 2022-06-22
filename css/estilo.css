@@ -1,9 +1,4 @@
-/*--------------IMPORT DE VARIABLES y mixin------*/
-/*COLORES GRADIENTE BG*/
-/*COLORES MENU*/
-/*COLORES SECCION*/
-/*COLORES FOOTER*/
-/*COLOR CARDS PRODUCTOS*/
+/*--------------IMPORT DE VARIABLES Y MIXINS------*/
 /*-----------------MIXIN MENU------------------*/
 .menu {
   display: flex;
@@ -20,7 +15,7 @@
       color: black;
       font-size: 25px; }
       .menu li a:hover {
-        color: whitesmoke; }
+        color: #f5f5f5; }
 
 /*--------MIXIN A PARRAFOS DEL MAIN DEL INDEX --------------*/
 .unPoco .p2, .p3 {
@@ -48,6 +43,25 @@
     background-color: #f5f5f5; }
 
 /*-----------------MIXIN FOOTER------------------*/
+.footer {
+  text-align: center; }
+  .footer .pie {
+    background-color: #88f49c;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid black; }
+  .footer h3 {
+    font-size: 20px;
+    padding-left: 15px; }
+  .footer ul li {
+    list-style: none;
+    text-decoration: none; }
+  .footer copyStyle {
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+    text-align: center; }
+
 /*---------------IMPORT DE PARTIALS--------------*/
 /*----USO DE GRID AL INDEX-----*/
 .grilla > * {
@@ -76,7 +90,7 @@
 @media (min-width: 768px) {
   .grilla {
     grid-template-columns: 400px auto;
-    grid-template-rows: 65px 60px auto 120px;
+    grid-template-rows: 65px 60px auto 10px;
     grid-template-areas: "header header" "navBar navBar" "main unPoco" "footer footer"; } }
 
 /*--------USO DE GRID A SERVICIOS--------*/
@@ -237,7 +251,11 @@
 
 body {
   background-image: linear-gradient(to right, #361ce2, #9d92e4);
-  min-height: 100%; }
+  background-attachment: fixed;
+  background-origin: inital;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%; }
 
 * {
   box-sizing: border-box;
@@ -301,23 +319,3 @@ header .titulo {
 
 .unPoco p3 {
   grid-area: p3; }
-
-/*--------------ESTILO DEL FOOTER--------------*/
-.footer {
-  text-align: center; }
-  .footer .pie {
-    background-color: #88f49c;
-    color: black;
-    border-radius: 10px;
-    text-align: center;
-    border: 1px solid black; }
-  .footer h3 {
-    font-size: 20px;
-    padding-left: 15px; }
-  .footer ul li {
-    list-style: none;
-    text-decoration: none; }
-  .footer copyStyle {
-    font-family: 'Lato', sans-serif;
-    font-size: small;
-    text-align: center; }

@@ -1,9 +1,10 @@
-/*--------------IMPORT DE VARIABLES y mixin------*/
+/*--------------IMPORT DE VARIABLES Y MIXINS------*/
 @import "variables";
 @import "mixin";
 
 
 /*---------------IMPORT DE PARTIALS--------------*/
+
 @import "./GRIDS/gridIndex";
 @import "./GRIDS/gridServicios";
 @import "./GRIDS/gridProductos";
@@ -12,4 +13,3 @@
 @import "./index/body";
 @import "./index/header";
 @import "./index/mainSeccion";
-@import "./index/footer";
