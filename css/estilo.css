@@ -118,10 +118,11 @@
   grid-area: serv-3;
   margin: 20px 10px; }
 
-.grid-servicios {
-  display: grid;
-  gap: 5px;
-  grid-template-areas: "header-serv" "nav-serv" "main-serv" "footer"; }
+@media (min-width: 321px) {
+  .grid-servicios {
+    display: grid;
+    gap: 5px;
+    grid-template-areas: "header-serv" "nav-serv" "main-serv" "footer"; } }
 
 @media screen and (min-width: 768px) {
   .grid-servicios {
@@ -166,30 +167,27 @@
   color: green;
   font-size: 20px; }
 
-.header-product {
-  grid-template-areas: header-product;
-  display: flex; }
-
-.nav-product {
-  grid-template-areas: nav-product; }
-
-.main-product {
-  grid-template-areas: main-product; }
-
-.product {
-  grid-template-areas: product;
-  display: flex; }
-
 .grid-product > * {
   box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
   border-radius: 3px;
   padding: 10px;
   text-align: center; }
 
-.grid-product {
-  display: grid;
-  gap: 5px;
-  grid-template-areas: "header-product" "navBar" "product" "footer"; }
+@media (min-width: 321px) {
+  .header-product {
+    grid-template-areas: header-product;
+    display: flex; }
+  .nav-product {
+    grid-template-areas: nav-product; }
+  .main-product {
+    grid-template-areas: main-product; }
+  .product {
+    grid-template-areas: product;
+    display: flex; }
+  .grid-product {
+    display: grid;
+    gap: 5px;
+    grid-template-areas: "header-product" "navBar" "product" "footer"; } }
 
 /*-------USO DE GRID PARA GALERIA-------*/
 .grid-galeria > * {
@@ -198,18 +196,17 @@
   padding: 10px;
   text-align: center; }
 
-.header-galeria {
-  grid-template-areas: header-galeria;
-  display: flex;
-  flex-wrap: wrap; }
-
-.main-galeria {
-  grid-template-areas: main-galeria; }
-
-.grid-galeria {
-  display: grid;
-  gap: 5px;
-  grid-template-areas: "header-galeria" "navBar" "main-galeria" "footer"; }
+@media (min-width: 321px) {
+  .header-galeria {
+    grid-template-areas: header-galeria;
+    display: flex;
+    flex-wrap: wrap; }
+  .main-galeria {
+    grid-template-areas: main-galeria; }
+  .grid-galeria {
+    display: grid;
+    gap: 5px;
+    grid-template-areas: "header-galeria" "navBar" "main-galeria" "footer"; } }
 
 /*------USO DE GRID A CONTACTO-----*/
 .grid-contacto > * {
@@ -226,18 +223,17 @@
   border: 1px solid black;
   width: 400px; }
 
-.header-contacto {
-  grid-template-areas: header-contacto;
-  display: flex;
-  flex-wrap: wrap; }
-
-.main-contacto {
-  grid-template-areas: main-contacto; }
-
-.grid-contacto {
-  display: grid;
-  gap: 5px;
-  grid-template-areas: "header-contacto" "navBar" "main-contacto" "footer"; }
+@media (min-width: 321px) {
+  .header-contacto {
+    grid-template-areas: header-contacto;
+    display: flex;
+    flex-wrap: wrap; }
+  .main-contacto {
+    grid-template-areas: main-contacto; }
+  .grid-contacto {
+    display: grid;
+    gap: 5px;
+    grid-template-areas: "header-contacto" "navBar" "main-contacto" "footer"; } }
 
 body {
   background-image: linear-gradient(to right, #361ce2, #9d92e4);

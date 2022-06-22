@@ -18,6 +18,8 @@
 
   
 
+@media(min-width:321px) {
+    
 
   .grid-servicios{
     display: grid;
@@ -31,7 +33,7 @@
         
     ;
 }
-
+}
 @media screen and (min-width:768px){
     .grid-servicios{
         grid-template-columns: auto auto auto;

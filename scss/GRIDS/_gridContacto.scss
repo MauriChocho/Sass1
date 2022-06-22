@@ -16,8 +16,11 @@
     width: 400px;
 }
 
-.header-contacto{grid-template-areas: header-contacto; display: flex; flex-wrap: wrap;}
-.main-contacto{grid-template-areas: main-contacto;}
+
+
+@media (min-width: 321px){
+    .header-contacto{grid-template-areas: header-contacto; display: flex; flex-wrap: wrap;}
+    .main-contacto{grid-template-areas: main-contacto;}
 
 .grid-contacto{
     display: grid;
@@ -27,4 +30,5 @@
     "navBar"
     "main-contacto"
     "footer";
+}
 }

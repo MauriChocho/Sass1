@@ -14,18 +14,21 @@
 .card a{ text-decoration: none; color: black; border:2px solid rgb(66, 61, 61) ;}
 .card a:hover{ color: green; font-size: 20px;}
 
-
-.header-product{grid-template-areas: header-product; display: flex;}
-.nav-product{grid-template-areas: nav-product;}
-.main-product{grid-template-areas: main-product;}
-.product{grid-template-areas: product; display: flex;}
-
 .grid-product >*{
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
     border-radius: 3px;
     padding: 10px;
     text-align: center;
   }
+
+
+  @media(min-width:321px){
+.header-product{grid-template-areas: header-product; display: flex;}
+.nav-product{grid-template-areas: nav-product;}
+.main-product{grid-template-areas: main-product;}
+.product{grid-template-areas: product; display: flex;}
+
+
 
 .grid-product{
     display: grid;
@@ -38,3 +41,4 @@
     "footer"
     ;
 }
+  }
